@@ -1,9 +1,23 @@
-import { siteConfig } from './lib/site-config'
+module.exports = {
+  rootNotionPageId: '2019a5ade2b3806cbbc4f7b82d009d53',
 
-export default siteConfig({
-  export const siteData = {
-  title: 'XYUSH OFFICIAL',
-  description: 'Merch and samples by XYUSH — Brazilian Phonk Producer',
-  notionPageId: '2019a5ade2b3806cbbc4f7b82d009d53',
-  // Add other configurations as needed
+  name: 'Xyush',
+  domain: 'fruition-xyush.vercel.app',
+  author: 'Xyush',
+
+  description: 'Indian Phonk Artist Xyush Official Notion Website',
+  socialImageTitle: 'Xyush',
+  socialImageSubtitle: '🔥 Indian Phonk Revolution',
+  github: 'ayushxfir',
+  linkedin: '',
+  twitter: '',
+
+  defaultPageIcon: null,
+  defaultPageCover: null,
+  defaultPageCoverPosition: 0.5,
+
+  isPreviewImageSupportEnabled: false,
+  isRedisEnabled: false,
+  pageUrlOverrides: null,
+  navigationStyle: 'default'
 };
